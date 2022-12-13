@@ -1,5 +1,4 @@
-#Image Component
----------------------------
+# Image Component
 
 Next.js 12 introduced new improvements to the Image Component with a temporary import: next/future/image. 
 These improvements included:
@@ -8,7 +7,7 @@ These improvements included:
 3. Better accessibility
 4. Native browser lazy loading.
 
-In version 13, this new behavior is now the default for next/image, which
+In version 13, this new behavior is now the default for next/image.
 
 ```
 import Image from 'next/image';
@@ -24,8 +23,6 @@ export default function Page() {
   );
 }
 ```
-
-
 
 The next/image import was renamed to next/legacy/image. 
 The next/future/image import was renamed to next/image. 
