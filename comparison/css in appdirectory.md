@@ -1,8 +1,7 @@
 # CSS in the App Directory
-
-## Before
 In the pages directory, global stylesheets are restricted to only pages/_app.js. 
 
+## Before
 To add a stylesheet to your application, import the CSS file within pages/_app.js
 
 ```css
