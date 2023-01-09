@@ -41,9 +41,7 @@ body {
 // These styles apply to every route in the application
 import './global.css';
 
-export default function RootLayout({ children }: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
