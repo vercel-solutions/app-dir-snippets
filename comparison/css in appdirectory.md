@@ -50,7 +50,6 @@ export default function RootLayout({ children }) {
 }
 ```
 
-## Other notes
 CSS-in-JS libraries which require runtime JavaScript are not currently supported in Server Components. Using CSS-in-JS with newer React features like Server Components and Streaming requires library authors to support the latest version of React, including concurrent rendering.
 
 If you want to style Server Components, we recommend using either:
