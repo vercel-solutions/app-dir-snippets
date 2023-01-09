@@ -36,6 +36,8 @@ body {
 ```
 
 ```jsx
+// app/layout.js
+
 // These styles apply to every route in the application
 import './global.css';
 
