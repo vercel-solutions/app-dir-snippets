@@ -15,7 +15,7 @@ body {
 ```
 
 ```jsx
-//pages/_app.js
+// pages/_app.js
 import '../styles.css'
 
 // This default export is required in a new `pages/_app.js` file.
